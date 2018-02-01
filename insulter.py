@@ -25,7 +25,7 @@ while p <= (len(nlist)-1):
     num = num*nlist[p]
     p=p+1
 
-num = num%13820
+num = num%1382
 print(num)
 
 List = open("list.txt").readlines()
