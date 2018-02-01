@@ -1,13 +1,9 @@
-import list.txt
-
 from random import randint
+
+name = input("Say your name you idiot, with more than 3 letters or else")
 
 num = randint(1,1383)
 
-i=0
-   List=[""]
-   for Line in inFile:
-      List[i]=Line.split(",")
-      i+=1
+List = open("list.txt").readlines()
 
-print(List[num])
+print(name, "you are a",List[num])
