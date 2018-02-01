@@ -7,8 +7,9 @@ alphabet = {'A' : 0, 'B' : 1, 'C' : 2, 'D' : 3, 'E' : 4, 'F' : 5, 'G' : 6, 'H' :
 
 nlistp = list(name)
 
+
 i = 0
-for i in nlistp in range(0,len(nlist.p)):
+for i in nlistp in range(0,len(nlistp)):
     nlist.append = alphabet[nlistp[0]]%1382
     i=+1
 
