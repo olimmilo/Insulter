@@ -11,7 +11,7 @@ nlist=[]
 i = 0
 for i in range(0,len(nlistp)):
     nlist.append = alphabet[nlistp[0]]%1382
-    i=+1
+    i=i+1
 
 
 
