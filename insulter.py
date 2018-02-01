@@ -8,7 +8,6 @@ alphabet = {'A' : 0, 'B' : 1, 'C' : 2, 'D' : 3, 'E' : 4, 'F' : 5, 'G' : 6, 'H' :
 nlistp = list(name)
 nlist=[]
 
-print((alphabet[nlistp[1]])%13820)
 
 
 i = 0
@@ -26,7 +25,7 @@ while p <= (len(nlist)-1):
     p=p+1
 
 num = num%1382
-print(num)
+
 
 List = open("list.txt").readlines()
 
