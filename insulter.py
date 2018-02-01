@@ -8,6 +8,9 @@ alphabet = {'A' : 0, 'B' : 1, 'C' : 2, 'D' : 3, 'E' : 4, 'F' : 5, 'G' : 6, 'H' :
 nlistp = list(name)
 nlist=[]
 
+print((alphabet[nlistp[1]])%13820)
+
+"""
 i = 0
 while i <= len(nlistp):
     nlist.append = alphabet[nlistp[i]]%1382
@@ -21,3 +24,4 @@ List = open("list.txt").readlines()
 
 print("")
 print(name, "you are a",List[num])
+"""
