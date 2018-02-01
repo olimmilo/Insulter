@@ -13,12 +13,12 @@ print((alphabet[nlistp[1]])%13820)
 
 i = 0
 while i <= len(nlistp):
-    nlist.append((alphabet[nlistp[1]])%13820)
+    nlist.append((alphabet[nlistp[1]]))
     i=i+1
 
 
 print(nlist)
-#num = nlist[0]*nlist[1]
+num = (nlist[0]*nlist[1])%13820
 
 List = open("list.txt").readlines()
 
