@@ -26,6 +26,7 @@ while p <= (len(nlist)-1):
     p=p+1
 
 num = num%13820
+print(num)
 
 List = open("list.txt").readlines()
 
