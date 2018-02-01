@@ -13,9 +13,8 @@ for i in nlistp in range(0,len(nlist.p)):
     i=+1
 
 
-nnlist= [alphabet[nlist[0]]%1382,alphabet[nlist[1]]%1382]
 
-num = nnlist[0]*nnlist[1]
+num = nlist[0]*nlist[1]
 
 List = open("list.txt").readlines()
 
