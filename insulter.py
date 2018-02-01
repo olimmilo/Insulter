@@ -10,7 +10,6 @@ alphabet = {'A' : 0, 'B' : 1, 'C' : 2, 'D' : 3, 'E' : 4, 'F' : 5, 'G' : 6, 'H' :
 nnlist= [alphabet[nlist[0]]%1382,alphabet[nlist[1]]%1382]
 
 num = nnlist[0]*nnlist[1]
-num = randint(1,1383)
 
 List = open("list.txt").readlines()
 
