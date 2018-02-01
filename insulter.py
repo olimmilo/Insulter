@@ -1,12 +1,11 @@
-import random import randint
+from random import randint
 
 name = input("Say your name you idiot, with more than 3 letters or else")
 
-name = name.lower
-#nlistp = list(name)
-#nlist = [nlistp[0],nlistp[1], nlistp[2]]
+nlistp = list(name)
+nlist = [nlistp[0],nlistp[1], nlistp[2]]
 
-print(name)
+print(nlist)
 
 num = randint(1,1383)
 
