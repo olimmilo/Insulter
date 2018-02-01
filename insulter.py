@@ -12,9 +12,8 @@ print((alphabet[nlistp[1]])%13820)
 
 
 i = 0
-print(nlistp[i])
-"""
-while i <= len(nlistp):
+
+while i <= (len(nlistp)-1):
     let=nlistp[i]
     nlist.append(alphabet[let])
     print(let)
@@ -28,4 +27,3 @@ List = open("list.txt").readlines()
 
 print("")
 print(name, "you are a",List[num])
-"""
