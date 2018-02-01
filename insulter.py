@@ -9,7 +9,7 @@ nlistp = list(name)
 
 
 i = 0
-for i in nlistp in range(0,len(nlistp)):
+for i in range(0,len(nlistp)):
     nlist.append = alphabet[nlistp[0]]%1382
     i=+1
 
