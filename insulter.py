@@ -3,7 +3,7 @@ from random import randint
 name = input("Say your name you idiot, with more than 3 letters or else")
 
 nlistp = list(name)
-nlist = [nlistp[0],nlistp[1], nlistp[2]]
+nlist = [nlistp[0],nlistp[1]]
 
 print(nlist)
 
