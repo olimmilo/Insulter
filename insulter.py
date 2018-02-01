@@ -13,7 +13,9 @@ print((alphabet[nlistp[1]])%13820)
 
 i = 0
 while i <= len(nlistp):
-    nlist.append((alphabet[nlistp[1]]))
+    let=nlistp[i]
+    #nlist.append((alphabet[let]))
+    print(let)
     i=i+1
 
 
