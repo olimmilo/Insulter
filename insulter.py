@@ -9,13 +9,13 @@ nlistp = list(name)
 nlist=[]
 
 i = 0
-for i in range(0,len(nlistp)):
-    nlist.append = alphabet[nlistp[0]]%1382
+while i <= len(nlistp):
+    nlist.append = alphabet[nlistp[i]]%1382
     i=i+1
 
 
-
-num = nlist[0]*nlist[1]
+print(nlist)
+#num = nlist[0]*nlist[1]
 
 List = open("list.txt").readlines()
 
